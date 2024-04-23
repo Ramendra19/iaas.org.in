@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                <b>Industry-Academia Association of Semiconductors (IAAS)</b>
-                <br></br>Innovation meets Collaboration, <br></br>Collaboration makes Technology
+                <b>Industry-Academia Association of Semiconductors and Space(IAAS)</b>
+                <br></br>Collaboration generate Innovation, <br></br>Innovation yields Technology, <br></br> Technology gives Solution
                 </p>
                 <div className="flex items-center">
                   <a
@@ -120,7 +120,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Blogs
                     </Link>
                   </li>
                   <li>
@@ -128,7 +128,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Membership
                     </Link>
                   </li>
                   <li>
@@ -136,7 +136,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      About IAAS
                     </Link>
                   </li>
                 </ul>
@@ -150,12 +150,12 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <Link
+                    {/* <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       TOS
-                    </Link>
+                    </Link> */}
                   </li>
                   <li>
                     <Link
@@ -200,12 +200,12 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
+                    {/* <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
-                    </Link>
+                    </Link> */}
                   </li>
                 </ul>
               </div>
@@ -215,14 +215,14 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Maintain by {" "}
+              © Copyright 2024 by {" "}
               <a
-                href="/"
+                href="https://www.iaas.org.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                IAAS Team
+                IAAS
               </a>{" "}
               
             </p>

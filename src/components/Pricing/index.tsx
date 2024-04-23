@@ -11,7 +11,7 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
+          title="Simple and Affordable Membership"
           paragraph="Join us Today, unlock exclusive benefits! Elevate your experience and connect with like-minded individuals in our vibrant community."
           center
           width="665px"
@@ -60,17 +60,17 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           
         <PricingBox
-            packageName="Institute Indiviual"
+            packageName="Institutes Indiviual"
             price={isMonthly ? "20K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Access to all literature of IAAS" status="active" />
+            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Voting Rights" status="active" />
+            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Lifetime Access" status="active" />
+            <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
 
           
@@ -80,39 +80,39 @@ const Pricing = () => {
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Access to all literature of IAAS" status="active" />
+            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Voting Rights" status="active" />
+            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Lifetime Access" status="active" />
+            <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
           
           <PricingBox
-            packageName="Institute"
-            price={isMonthly ? "1,00,000" : "789"}
+            packageName="Institutes"
+            price={isMonthly ? "100K" : "789"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+             <OfferList text="Access to all literature of IAAS" status="active" />
+            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
+            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
+            <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>
           <PricingBox
             packageName="Industries"
-            price={isMonthly ? "5,00,000" : "999"}
+            price={isMonthly ? "500K" : "999"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Access to all literature of IAAS" status="active" />
+            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
+            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
+            <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>
         </div>
       </div>

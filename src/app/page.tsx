@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IAAS",
-  description: "Industry-Academia Association of Semiconductors & Space",
+  title: "Industry Academia Association of Semiconductors and Space Technologies",
+  description: "Industry-Academia Association of Semiconductors and Space Technologies (IAAS)",
   // other metadata
 };
 
