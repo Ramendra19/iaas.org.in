@@ -7,8 +7,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page Industry-Academia Association of Semiconductors & Space",
-  description: "This is Blog Details Page for Study about Industry-Academia Association of Semiconductors & Space",
+  title: "Blog Details Page Industry-Academia Association of Semiconductors & Space technologies",
+  description: "This is Blog Details Page for Study about Industry-Academia Association of Semiconductors & Space technologies",
   // other metadata
 };
 
