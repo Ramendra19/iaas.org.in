@@ -28,7 +28,7 @@ const Footer = () => {
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                 <b>Industry-Academia Association of Semiconductors and Space(IAAS)</b>
-                <br></br>Collaboration generate Innovation, <br></br>Innovation yields Technology, <br></br> Technology gives Solution
+                <br></br> Innovation meets Collaboration, <br></br>Collaboration fosters Technology, <br></br>Technology empowers Progress.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -125,7 +125,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/membership"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Membership
@@ -209,7 +209,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              
             </div>
+            
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>

@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+import Pricing from "@/components/Pricing";
 
 import { Metadata } from "next";
 
@@ -9,18 +9,17 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const ContactPage = () => {
+const membershipPage = () => {
   return (
     <>
-    
       <Breadcrumb
-        pageName="Contact Us"
-        description="Connect with us effortlessly via our contact page. Share inquiries, feedback, or collaboration ideas."
+        pageName="Join Our Family"
+        description="Join IAAS for exclusive access to tech insights, networking, and career growth opportunities. Elevate your future today..."
       />
 
-      <Contact />
+      <Pricing/>
     </>
   );
 };
 
-export default ContactPage;
+export default membershipPage;

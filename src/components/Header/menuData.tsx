@@ -15,34 +15,40 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Semiconductor",
-    path: "/blog",
+    title: "Industries",
     newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "Semiconductor",
+        path: "/",
+        newTab: false,
+      },
+      {
+        id: 32,
+        title: "Space",
+        path: "/",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 4,
-    title: "Industries",
-    path: "/blog",
+    title: "Events",
+    path: "./",
     newTab: false,
   },
   {
     id: 5,
-    title: "Events",
-    path: "/contact",
+    title: "Membership",
+    path: "/membership",
     newTab: false,
   },
   {
     id: 6,
-    title: "Membership",
-    path: "/pricing",
-    newTab: false,
-  },
-  {
-    id:7,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
-  
 ];
 export default menuData;
