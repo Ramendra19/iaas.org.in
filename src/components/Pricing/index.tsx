@@ -11,7 +11,7 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Membership"
+          title="Simple and Affordable Memberships"
           paragraph="Join us Today, unlock exclusive benefits! Elevate your experience and connect with like-minded individuals in our vibrant community."
           center
           width="665px"

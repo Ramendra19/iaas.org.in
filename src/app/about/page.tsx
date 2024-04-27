@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About IAAS"
-        description="Welcome to the Industry-Academia Association of Semiconductors (IAAS), where innovation meets collaboration in the dynamic world of semiconductor technology."
+        description="Welcome to the Industry-Academia Association of Semiconductors (IAAS), where innovation meets collaboration in the dynamic world of semiconductor and space technologies."
       />
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}

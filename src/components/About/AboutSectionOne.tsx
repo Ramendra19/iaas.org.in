@@ -25,13 +25,13 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Our Mission"
-                paragraph="At IAAS, our mission is to bridge the gap between industry and academia to foster collaboration, innovation, and advancement in semiconductor technology. We believe that by bringing together experts from both sectors, we can drive groundbreaking research, develop cutting-edge technologies, and propel the semiconductor industry forward."
+                paragraph="At IAAS, our mission is to bridge the gap between industry and academia to foster collaboration, innovation, and advancement in semiconductor  and space technologies. We believe that by bringing together experts from both sectors, we can drive groundbreaking research, develop cutting-edge technologies, and propel the semiconductor and space industries forward."
                 mb="44px"
               />
 
               <SectionTitle
                 title="Our Vision"
-                paragraph="Our vision is to create a vibrant ecosystem where industry professionals, researchers, educators, and students come together to exchange ideas, share knowledge, and address the challenges facing the semiconductor industry. We aspire to be a catalyst for innovation and a driving force behind the continued growth and evolution of semiconductor technology."
+                paragraph="Our vision is to create a vibrant ecosystem where industry professionals, researchers, educators, and students come together to exchange ideas, share knowledge, and address the challenges facing the semiconductor and space  industries. We aspire to be a catalyst for innovation and a driving force behind the continued growth and evolution of semiconductor and space technologies."
                 mb="44px"
               />
 
