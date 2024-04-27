@@ -27,7 +27,7 @@ const menuData: Menu[] = [
       {
         id: 32,
         title: "Forigen Semiconductor Industries",
-        path: "./",
+        path: "/fsemiconductor",
         newTab: false,
       },
       {

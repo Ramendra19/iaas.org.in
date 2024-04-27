@@ -63,12 +63,12 @@ const Pricing = () => {
             packageName="Institutes Indiviual"
             price={isMonthly ? "20K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Get exclusive access to our services tailored for Individual institutes."
           >
             <OfferList text="Access to all literature of IAAS" status="active" />
             <OfferList text="Special privilege to join conferences of IAAS" status="active" />
             <OfferList text="Voting Rights" status="active" />
-            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
@@ -78,12 +78,12 @@ const Pricing = () => {
             packageName="Industries Indiviual"
             price={isMonthly ? "50K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Get exclusive access to our services tailored for Industries Indiviual."
           >
             <OfferList text="Access to all literature of IAAS" status="active" />
             <OfferList text="Special privilege to join conferences of IAAS" status="active" />
             <OfferList text="Voting Rights" status="active" />
-            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
@@ -92,12 +92,12 @@ const Pricing = () => {
             packageName="Institutes"
             price={isMonthly ? "100K" : "789"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Get exclusive access to our services tailored for Institutes."
           >
              <OfferList text="Access to all literature of IAAS" status="active" />
             <OfferList text="Special privilege to join conferences of IAAS" status="active" />
             <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
-            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
             <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>
@@ -105,12 +105,12 @@ const Pricing = () => {
             packageName="Industries"
             price={isMonthly ? "500K" : "999"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Get exclusive access to our services tailored for Industries."
           >
             <OfferList text="Access to all literature of IAAS" status="active" />
             <OfferList text="Special privilege to join conferences of IAAS" status="active" />
             <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
-            <OfferList text="Special Discount to attained T and P of IAAS" status="active" />
+            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
             <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>

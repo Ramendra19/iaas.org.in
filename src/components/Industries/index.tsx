@@ -34,7 +34,7 @@ const eventdetails:eventdetail[] = [
 const Industries = () => {
   return (
     <div className="flex justify-center items-center">
-  <div className="container bg-white dark:bg-black p-16 rounded-md shadow-lg">
+  <div className="container bg-white dark:bg-black p-4 lg:p-16 rounded-md shadow-lg">
     <section id="editorial-board" className="mb-8">
       <h2 className="flex justify-center text-colour text-xl font-semibold">
         Our Upcoming Events
@@ -45,7 +45,7 @@ const Industries = () => {
             <th className="w-1/2 border p-2 text-left text-white dark:bg-black">Title</th>
             <th className="w-1/2 border p-2 text-left text-white dark:bg-black">Date</th>
             <th className="w-1/2 border p-2 text-left text-white dark:bg-black">Venue</th>
-            <th className="w-1/2 border p-2 text-left text-white dark:bg-black">For More Information</th>
+            {/* <th className="w-1/2 border p-2 text-left text-white dark:bg-black">For More Information</th> */}
           </tr>
         </thead>
         <tbody>
@@ -54,21 +54,24 @@ const Industries = () => {
               key={index}
               className={index % 2 === 0 ? "bg-blue-100 dark:bg-gray-dark" : "bg-white dark:bg-black"}
             >
-              <td className="border p-2 text-left text-black">
+              <td className="border flex justify-between pr-4 text-justify text-color lg:p-2">
+              <Link className="text-blue-500" href={member.link}> 
               {member.tittle}
+                  </Link>
+              
               </td>
-              <td className="border p-2 text-left text-black dark:text-white">
+              <td className="border   px-2 text-center text-black dark:text-white">
                 {member.date}
               </td>
-              <td className="border p-2 text-left text-black dark:text-white">
+              <td className="border p-2 text-justify text-black dark:text-white">
                 {member.venue}
               </td>
-              <td className="border p-2 text-left text-black dark:text-white">
+              {/* <td className="border p-2 text-left text-black dark:text-white">
               <Link className="text-blue-500" href={member.link}> Click Here
                   
                 </Link>
                
-              </td>
+              </td> */}
             </tr>
           ))}
         </tbody>
