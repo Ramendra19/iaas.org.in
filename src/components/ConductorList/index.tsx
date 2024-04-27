@@ -269,7 +269,7 @@ const Industries = () => {
   <div className="container bg-white dark:bg-black p-16 rounded-md shadow-lg">
     <section id="editorial-board" className="mb-8">
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-       Indian Industries List
+       Country :-  India
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>

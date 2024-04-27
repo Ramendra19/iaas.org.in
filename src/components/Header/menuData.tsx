@@ -20,18 +20,12 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Indian Semiconductor Industries",
+        title: "Semiconductor ",
         path: "/semiconductor",
         newTab: false,
       },
       {
         id: 32,
-        title: "Forigen Semiconductor Industries",
-        path: "/fsemiconductor",
-        newTab: false,
-      },
-      {
-        id: 33,
         title: "Space",
         path: "/",
         newTab: false,

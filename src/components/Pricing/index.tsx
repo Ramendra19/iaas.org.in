@@ -63,10 +63,10 @@ const Pricing = () => {
             packageName="Institutes Indiviual"
             price={isMonthly ? "20K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Get exclusive access to our services tailored for Individual institutes."
+            subtitle="Get exclusive access to our services tailored for Institutes’ Individuals."
           >
-            <OfferList text="Access to all literature of IAAS" status="active" />
-            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Access to all Literature of IAAS" status="active" />
+            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
             <OfferList text="Voting Rights" status="active" />
             <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime Access" status="active" />
@@ -78,10 +78,10 @@ const Pricing = () => {
             packageName="Industries Indiviual"
             price={isMonthly ? "50K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
-            subtitle="Get exclusive access to our services tailored for Industries Indiviual."
+            subtitle="Get exclusive access to our services tailored for Industries’ Individuals."
           >
-            <OfferList text="Access to all literature of IAAS" status="active" />
-            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
+            <OfferList text="Access to all Literature of IAAS" status="active" />
+            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
             <OfferList text="Voting Rights" status="active" />
             <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
             <OfferList text="Lifetime Access" status="active" />
@@ -94,11 +94,11 @@ const Pricing = () => {
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Institutes."
           >
-             <OfferList text="Access to all literature of IAAS" status="active" />
-            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
-            <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
+             <OfferList text="Access to all Literature of IAAS" status="active" />
+            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
+            <OfferList text="Special Privilege to Feature Institute in the Community of IAAS" status="active" />
             <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
-            <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
+            <OfferList text="Lifetime Opportunity to Feature Institute Logo at IAAS Website" status="active" />
             <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>
           <PricingBox
@@ -107,11 +107,11 @@ const Pricing = () => {
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Industries."
           >
-            <OfferList text="Access to all literature of IAAS" status="active" />
-            <OfferList text="Special privilege to join conferences of IAAS" status="active" />
-            <OfferList text="Special privilage to feature institute in the community of IAAS " status="active" />
+            <OfferList text="Access to all Literature of IAAS" status="active" />
+            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
+            <OfferList text="Special Privilage to Feature Institute in the Community of IAAS " status="active" />
             <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
-            <OfferList text="Lifetime opportunities to feature institute logo at IAAS website" status="active" />
+            <OfferList text="Lifetime Opportunity to Feature Institute Logo at IAAS Website" status="active" />
             <OfferList text="Free Lifetime Updates" status="active"/>
           </PricingBox>
         </div>
