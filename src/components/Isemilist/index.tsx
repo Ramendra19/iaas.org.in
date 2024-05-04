@@ -725,7 +725,7 @@ const Industries = () => {
 
 
           <h2 className="text-colour flex justify-center text-xl font-semibold">
-            Froeign
+          Foreign
           </h2>
           <table className="my-5 w-full table-fixed items-center overflow-hidden rounded-lg">
             <thead>
