@@ -1,13 +1,13 @@
 "user Client"
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import FconductorList from "@/components/FsemiList"
+import Isemilist from "@/components/Isemilist"
 
 
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Foreign Semiconductor Industries | IAAS",
+  title: "Institute of Semiconductors | IAAS",
   description: "Welcome to Semiconductors page",
   // other metadata
 };
@@ -16,11 +16,11 @@ const events = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Foreign Industries List"
+        pageName="Institute of Semiconductors"
         description="The global leaders in semiconductors, driving innovation and technological advancements worldwide."
       />
 
-    <FconductorList/>
+    <Isemilist/>
     </>
   );
 };

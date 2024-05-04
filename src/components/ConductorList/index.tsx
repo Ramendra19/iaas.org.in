@@ -17,6 +17,22 @@ interface eventdeatilplace {
 const eventdetails:eventdetail[] = [
   
   {
+      tittle: "TCL Labs",
+      description: "Where precision meets innovation in analytical solutions. Established with a commitment to redefine the standards of quality, safety, and performance, TCL Labs stands as a beacon of excellence in the field of analytical services."
+    },
+  
+  {
+      tittle: "Cubicuss",
+      description: "Mission is to revolutionize industries through innovative solutions and sustainable practices. Discover how we're making a difference every day."
+    },
+  
+  {
+      tittle: "Next Planet",
+      description: "Next Planet Inc is a GenX electric vehicle, energy and aerospace company with strong R&D base led by IITians and professionals from pioneer organisations like ISRO, etc."
+    },
+  
+  
+  {
       tittle: "Intel India",
       description: "Engaged in semiconductor design and research & development."
     },
@@ -269,7 +285,7 @@ const Industries = () => {
   <div className="container bg-white dark:bg-black p-16 rounded-md shadow-lg">
     <section id="editorial-board" className="mb-8">
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-       Country :-  India
+       Bharat
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>

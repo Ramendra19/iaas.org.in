@@ -159,7 +159,7 @@ const Industries = () => {
   <div className="container bg-white dark:bg-black p-16 rounded-md shadow-lg">
     <section id="editorial-board" className="mb-8">
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- United States
+      United States of America
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>
@@ -188,7 +188,7 @@ const Industries = () => {
 
 
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- China
+      China
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>
@@ -218,7 +218,7 @@ const Industries = () => {
 
 
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- Taiwan
+      Taiwan
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>
@@ -248,7 +248,7 @@ const Industries = () => {
 
       
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- South Korea
+      South Korea
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>
@@ -277,7 +277,7 @@ const Industries = () => {
 
 
       <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- Japan
+      Japan
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>
@@ -305,7 +305,7 @@ const Industries = () => {
       </table>
 
 <h2 className="flex justify-center text-colour text-xl font-semibold">
-      Country :- Germany
+      Germany
       </h2>
       <table className="w-full items-center my-5 table-fixed overflow-hidden rounded-lg">
         <thead>

@@ -27,7 +27,7 @@ const menuData: Menu[] = [
       {
         id: 32,
         title: "Space",
-        path: "/",
+        path: "/spacelist",
         newTab: false,
       },
     ],
@@ -36,7 +36,7 @@ const menuData: Menu[] = [
   {
     id: 5,
     title: "Institutes",
-    path: "./",
+    path: "/isemiconductor",
     newTab: false,
   },
   {
