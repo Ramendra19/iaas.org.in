@@ -344,7 +344,7 @@ const Industries = () => {
         <div className="container rounded-md bg-white p-16 shadow-lg dark:bg-black">
           <section id="editorial-board" className="mb-8">
             <h2 className="text-colour flex justify-center text-xl font-semibold">
-              Bharat Space Industries
+              Bharat 
             </h2>
             <table className="my-5 w-full table-fixed items-center overflow-hidden rounded-lg">
               <thead>

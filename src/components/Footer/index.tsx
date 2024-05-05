@@ -27,8 +27,10 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                <b>IAAS</b>
-                <br></br> Innovation meets Collaboration, <br></br>Collaboration fosters Technology, <br></br>Technology empowers Progress.
+                  <b>IAAS</b>
+                  <br></br> Innovation meets Collaboration, <br></br>
+                  Collaboration fosters Technology, <br></br>Technology empowers
+                  Progress.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -74,23 +76,25 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="mailto:info@iaas.org.in"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
-                      width="18"
-                      height="14"
-                      viewBox="0 0 18 14"
+                      width="25"
+                      height="25"
+                      viewBox="0 0 30 30"
                       className="fill-current"
                     >
-                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
+                      <path d="M20 19L4 19 4 7 12 12 20 7z" opacity=".5" />
+                      <path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M19,18H5V6h14V18z" />
+                      <path d="M3 7.376L12 13 21 7.376 21 4.376 12 10 3 4.376z" />
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="./"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -209,15 +213,13 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              
             </div>
-            
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © Copyright 2024 by {" "}
+              © Copyright 2024 by{" "}
               <a
                 href="https://www.iaas.org.in/"
                 target="_blank"
@@ -226,7 +228,6 @@ const Footer = () => {
               >
                 IAAS
               </a>{" "}
-              
             </p>
           </div>
         </div>
