@@ -5,6 +5,7 @@ import Blog from "@/components/Blog";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 // import Membership from "@/components/Membership"
@@ -32,6 +33,7 @@ export default function Home() {
       {/* <Pricing />          */}
       {/* <Blog /> */}
       <Contact />
+      <Footer/>
     </>
   );
 }

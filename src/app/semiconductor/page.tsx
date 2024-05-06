@@ -1,6 +1,7 @@
 "user Client"
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import ConductorList from "@/components/ConductorList";
+import Footer from "@/components/Footer";
 import FconductorList from "@/components/FsemiList"
 
 
@@ -25,6 +26,7 @@ const events = () => {
 
       <ConductorList/>
       <FconductorList/>
+      <Footer/>
     </>
   );
 };

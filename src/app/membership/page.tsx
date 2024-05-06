@@ -1,11 +1,13 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Footer from "@/components/Footer";
 import Pricing from "@/components/Pricing";
+
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Get in Touch With IAAS",
-  description: "This is Contact Page to connect with IAAS",
+  description: "Welcome to IAAS Membership Page",
   // other metadata
 };
 
@@ -18,6 +20,7 @@ const membershipPage = () => {
       />
 
       <Pricing/>
+      <Footer isMembershipPage= {true}/>
     </>
   );
 };

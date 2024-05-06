@@ -27,7 +27,7 @@ const eventdetails:eventdetail[] = [
     },
   
   {
-      tittle: "Next Planet",
+      tittle: "Next Planet Inc",
       description: "Next Planet Inc is a GenX electric vehicle, energy and aerospace company with strong R&D base led by IITians and professionals from pioneer organisations like ISRO, etc."
     },
   

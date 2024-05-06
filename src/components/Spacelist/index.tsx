@@ -20,6 +20,13 @@ const eventdetails:eventdetail[] = [
           description: "The primary space agency of the Indian government responsible for space research and exploration.",
           link: "https://www.isro.gov.in/"
         },
+        
+        {
+          title: "Cubicuss",
+          description: "Mission is to revolutionize industries through innovative solutions and sustainable practices. Discover how we're making a difference every day.",
+          link: "https://www.cubicuss.in/",
+        },
+
         {
           title: "Antrix Corporation Limited",
           description: "The commercial arm of ISRO, responsible for marketing products and services developed by ISRO.",

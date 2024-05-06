@@ -6,6 +6,7 @@ import Fspacelist from "@/components/Fspacelist/page"
 
 
 import { Metadata } from "next";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Space | IAAS",
@@ -23,6 +24,7 @@ const events = () => {
 
     <Spacelist/>
     <Fspacelist/>
+    <Footer/>
     </>
   );
 };

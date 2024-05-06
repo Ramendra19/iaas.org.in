@@ -16,17 +16,17 @@ interface eventdeatilplace {
 
 const eventdetails:eventdetail[] = [
   {
-    tittle: "Role of Academic driven Startups in Developing Economy of J&K",
+    tittle: "Role of Academic-driven Startups in Developing Economy of J&K",
     date: "June 29-30, 2024",
-    venue: "National Institute of Technology, Srinagar",
+    venue: "National Institute of Technology Srinagar",
     link: "https://sk24.rase.co.in/",
 
   },
 
   {
-    tittle: "Indian Education system for global developement",
+    tittle: "Indian Education System for Global Developement",
     date: "October 4-6, 2024",
-    venue: "Indian Institute of Technology, Roopar",
+    venue: "Indian Institute of Technology Ropar",
     link: "https://sm24.rase.co.in/",
   },
 ];

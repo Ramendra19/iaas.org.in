@@ -1,5 +1,6 @@
 "user Client"
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Footer from "@/components/Footer";
 import Industries from "@/components/Industries";
 
 
@@ -24,6 +25,7 @@ const events = () => {
       />
 
       <Industries/>
+      <Footer/>
     </>
   );
 };

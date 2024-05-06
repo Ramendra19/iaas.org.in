@@ -1,5 +1,6 @@
 "user Client"
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Footer from "@/components/Footer";
 import Isemilist from "@/components/Isemilist"
 
 
@@ -21,6 +22,7 @@ const events = () => {
       />
 
     <Isemilist/>
+    <Footer/>
     </>
   );
 };

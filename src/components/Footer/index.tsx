@@ -1,8 +1,17 @@
 "use client";
+// import { useEffect,  useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
+import React, { useState, useEffect } from 'react';
 
-const Footer = () => {
+
+
+const Footer = ({isMembershipPage}) => {
+  const [showAccountDetails, setShowAccountDetails] = useState(false);
+  useEffect(() => {
+    setShowAccountDetails(isMembershipPage);
+  }, [isMembershipPage])
+  
   return (
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
@@ -114,6 +123,21 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {showAccountDetails ? (
+           <div className="w-full px-15 md:w-1/2 lg:w-full xl:w-5/15">
+              
+                <h2 className="mb-5 text-xl font-bold text-black dark:text-white">
+                  Account Details
+                </h2>
+                <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
+                <span className="block mb-4">Account Name: <br></br><b>IAAS</b></span>
+                <span className="block mb-4">Bank Name:<br></br> <b>State Bank of India</b></span>
+                <span className="block mb-4">Account Number: <br></br><b>42940602877</b></span>
+                <span className="block mb-4">IFSC Code: <br></br><b>SBIN0000628</b></span>
+              </p>
+              
+            </div>
+          ) : (  
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
@@ -145,7 +169,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              )}
             </div>
+          
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
@@ -153,14 +179,7 @@ const Footer = () => {
                   Terms
                 </h2>
                 <ul>
-                  <li>
-                    {/* <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      TOS
-                    </Link> */}
-                  </li>
+          
                   <li>
                     <Link
                       href="/"
@@ -182,7 +201,11 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
+          
+           
+                     
+            <div className="w-full px-0 md:w-1/2 lg:w-full xl:w-5/15">
+              <div className="mb-10 lg:mb-10">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
                 </h2>
@@ -190,31 +213,29 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-2 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"  
                     >
-                      Open Support Ticket
+                     Open Ticket
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary" 
                     >
                       Terms of Use
                     </Link>
                   </li>
-                  <li>
-                    {/* <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link> */}
-                  </li>
-                </ul>
+                  </ul>
               </div>
             </div>
+          
           </div>
+
+ 
+        </div>
+      
+  
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
@@ -425,5 +446,9 @@ const Footer = () => {
     </>
   );
 };
+
+Footer.defaultProps ={
+  isMembershipPage: null,
+}
 
 export default Footer;

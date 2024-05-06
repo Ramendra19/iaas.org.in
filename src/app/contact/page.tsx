@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 import { Metadata } from "next";
 
@@ -19,6 +20,7 @@ const ContactPage = () => {
       />
 
       <Contact />
+      <Footer/>
     </>
   );
 };
