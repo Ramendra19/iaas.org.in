@@ -7,25 +7,23 @@ const NewsLatterBox = () => {
 
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-      
       <div>
-        
         <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe for future updates
-      </h3>
-      <input
+          Subscribe for future updates
+        </h3>
+        <input
           type="text"
           name="Name"
-          placeholder="*Enter your Name*"
+          placeholder="Enter your Name"
           className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
         />
         <input
           type="email"
           name="email"
-          placeholder="*Enter your E-mail*"
+          placeholder="Enter your Email"
           className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
         />
-        
+
         <input
           type="submit"
           value="Subscribe"
@@ -251,6 +249,76 @@ const NewsLatterBox = () => {
             </defs>
           </svg>
         </span>
+      </div>
+<br></br>
+<br></br>
+      <div className="bg-blue relative z-10 rounded-sm p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
+        <div className="mb-4 flex items-center">
+          <h3 className="text-xl font-bold leading-tight text-black dark:text-white">
+            For Further Information
+          </h3>
+        </div>
+
+        <div className="flex items-center">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 30 30"
+            className="mr-2 fill-current"
+          >
+            <path d="M20 19L4 19 4 7 12 12 20 7z" opacity=".5" />
+            <path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M19,18H5V6h14V18z" />
+            <path d="M3 7.376L12 13 21 7.376 21 4.376 12 10 3 4.376z" />
+          </svg>
+          <span>
+            <a
+              href="mailto:info@iaas.org.in"
+              className="text-blue-500 hover:text-blue-700"
+            >
+              info@iaas.org.in
+            </a>
+          </span>
+          </div>
+          <div className="flex items-center">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 30 30"
+            className="mr-2 fill-current"
+          >
+            <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"/>
+          </svg>
+          <span>
+            <a
+              href="https://api.whatsapp.com/send?phone=6284348728"
+              className="text-blue-500 hover:text-blue-700"
+            >
+              Send Your Message
+            </a>
+          </span>
+          <br></br>
+          </div>
+
+
+          <div className="flex items-center">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 55 50"
+            className="mr-2 fill-current"
+          >
+           <path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z"/>
+          </svg>
+          <span>
+            <a
+              href="#"
+              className="text-blue-500 hover:text-blue-700"
+            >
+              +91 6284348728
+            </a>
+          </span>
+          </div>
+        
       </div>
     </div>
   );
