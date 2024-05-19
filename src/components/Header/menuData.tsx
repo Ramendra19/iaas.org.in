@@ -35,23 +35,25 @@ const menuData: Menu[] = [
 
   {
     id: 5,
-    title: "Institutes",
+    title: "Institute",    
     newTab: false,
     submenu: [
       {
         id: 51,
         title: "Bharat",
-        path: "/r",
+        path: "/isemiconductor",
         newTab: false,
       },
       {
         id: 52,
         title: "Foreign",
-        path: "/flist",
+        path: "/fsemiconductor",
         newTab: false,
       },
     ],
   },
+
+
   {
     id: 4,
     title: "Events",
