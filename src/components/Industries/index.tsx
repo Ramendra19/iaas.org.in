@@ -43,7 +43,7 @@ const pasteventdetails:eventdetail[] = [
   {
     tittle: "Role of Academic-Driven Startups in Economy",
     date: "December 30, 2023",
-    venue: "Indian Institute of Technology Kurukshetra",
+    venue: "National Institute of Technology Kurukshetra",
     link: "https://sk23.rase.co.in/",
   },
 ];
