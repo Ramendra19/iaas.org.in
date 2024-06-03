@@ -24,7 +24,7 @@ const PricingBox = (props: {
         </div>
         <p className="mb-7 text-base text-body-color">{subtitle}</p>
 
-        <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+        {/* <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
           <a
             href="form/IAAS_Membership_Form.pdf"
             target="_blank"
@@ -34,7 +34,7 @@ const PricingBox = (props: {
               Join Now
             </button>
           </a>
-        </div>
+        </div> */}
 
         <div>{children}</div>
         <div className="absolute bottom-0 right-0 z-[-1]">

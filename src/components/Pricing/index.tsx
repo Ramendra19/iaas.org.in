@@ -45,7 +45,6 @@ const Pricing = () => {
               </div>
             </div> */}
             <span
-              
               className={`${
                 isMonthly
                   ? "text-dark dark:text-white"
@@ -58,47 +57,111 @@ const Pricing = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
-          
-        <PricingBox
+          <PricingBox
             packageName="Institutes Indiviual"
             price={isMonthly ? "20K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Institutes’ Individuals."
           >
-            <OfferList text="Access to all Literature of IAAS" status="active" />
-            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
+            <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+              <a
+                href="form/Institute_Membership_Form.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Join Now
+                </button>
+              </a>
+            </div>
+            <OfferList
+              text="Access to all Literature of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilege to Join Conferences of IAAS"
+              status="active"
+            />
             <OfferList text="Voting Rights" status="active" />
-            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
+            <OfferList
+              text="Special Discount to Attend Training Programs of IAAS"
+              status="active"
+            />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
 
-          
           <PricingBox
             packageName="Industries Indiviual"
             price={isMonthly ? "50K" : "120"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Industries’ Individuals."
           >
-            <OfferList text="Access to all Literature of IAAS" status="active" />
-            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
+            <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+              <a
+                href="form/IAAS_Membership_Form.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Join Now
+                </button>
+              </a>
+            </div>
+            <OfferList
+              text="Access to all Literature of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilege to Join Conferences of IAAS"
+              status="active"
+            />
             <OfferList text="Voting Rights" status="active" />
-            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
+            <OfferList
+              text="Special Discount to Attend Training Programs of IAAS"
+              status="active"
+            />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
-          
+
           <PricingBox
             packageName="Institutes"
             price={isMonthly ? "100K" : "789"}
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Institutes."
           >
-             <OfferList text="Access to all Literature of IAAS" status="active" />
-            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
-            <OfferList text="Special Privilege to Feature Institute in the Community of IAAS" status="active" />
-            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
-            <OfferList text="Lifetime Opportunity to Feature Institute Logo at IAAS Website" status="active" />
+            <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+              <a
+                href="form/Institute_Membership_Form.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Join Now
+                </button>
+              </a>
+            </div>
+            <OfferList
+              text="Access to all Literature of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilege to Join Conferences of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilege to Feature Institute in the Community of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Discount to Attend Training Programs of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Lifetime Opportunity to Feature Institute Logo at IAAS Website"
+              status="active"
+            />
             {/* <OfferList text="Free Lifetime Updates" status="active"/> */}
           </PricingBox>
           <PricingBox
@@ -107,18 +170,39 @@ const Pricing = () => {
             duration={isMonthly ? "Lifetime" : "yr"}
             subtitle="Get exclusive access to our services tailored for Industries."
           >
-            <OfferList text="Access to all Literature of IAAS" status="active" />
-            <OfferList text="Special Privilege to Join Conferences of IAAS" status="active" />
-            <OfferList text="Special Privilage to Feature Institute in the Community of IAAS " status="active" />
-            <OfferList text="Special Discount to Attend Training Programs of IAAS" status="active" />
-            <OfferList text="Lifetime Opportunity to Feature Institute Logo at IAAS Website" status="active" />
+            <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+              <a
+                href="form/IAAS_Membership_Form.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Join Now
+                </button>
+              </a>
+            </div>
+            <OfferList
+              text="Access to all Literature of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilege to Join Conferences of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Special Privilage to Feature Institute in the Community of IAAS "
+              status="active"
+            />
+            <OfferList
+              text="Special Discount to Attend Training Programs of IAAS"
+              status="active"
+            />
+            <OfferList
+              text="Lifetime Opportunity to Feature Institute Logo at IAAS Website"
+              status="active"
+            />
             {/* <OfferList text="Free Lifetime Updates" status="active"/> */}
           </PricingBox>
-
-
-          
-
-         
         </div>
       </div>
 

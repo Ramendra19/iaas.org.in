@@ -6,7 +6,7 @@ import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Get in Touch With IAAS",
+  title: "IAAS | Become Our Family Member",
   description: "Welcome to IAAS Membership Page",
   // other metadata
 };

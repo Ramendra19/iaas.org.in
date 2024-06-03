@@ -68,6 +68,49 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
+    title: "Chapters",
+    newTab: false,
+    submenu: [
+      {
+        id: 61,
+        title: "Guidelines to Establish a Chapter",
+        path: "form/Guidelines_to_Open_a_Chapter.pdf",
+        newTab: true,
+      },
+      {
+        id: 62,
+        title: "Chandigarh",
+        path: "./",
+        newTab: false,
+      },
+      {
+        id: 63,
+        title: "Mumbai",
+        path: "./",
+        newTab: false,
+      },
+      {
+        id: 64,
+        title: " Surat",
+        path: "./",
+        newTab: false,
+      },
+      {
+        id: 65,
+        title: "Delhi",
+        path: "./",
+        newTab: false,
+      },
+      {
+        id: 66,
+        title: "Bhiwani",
+        path: "./",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "Contact",
     path: "/contact",
     newTab: false,
