@@ -247,7 +247,7 @@ const Footer = ({isMembershipPage}) => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                IAAS
+                Swami Vivekanand Association
               </a>{" "}
             </p>
           </div>
